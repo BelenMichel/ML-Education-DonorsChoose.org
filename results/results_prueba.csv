@@ -1,0 +1,2743 @@
+model,classifiers,parameters,auc,total_1,total_2,total_5,total_10,total_20,total_30,total_50,sample
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 1e-05, 'penalty': 'l1'}",0.5,"              precision    recall  f1-score   support
+
+       False       0.75      0.99      0.85     17396
+        True       0.24      0.01      0.02      5766
+
+   micro avg       0.75      0.75      0.75     23162
+   macro avg       0.50      0.50      0.44     23162
+weighted avg       0.62      0.75      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.98      0.85     17396
+        True       0.24      0.02      0.04      5766
+
+   micro avg       0.74      0.74      0.74     23162
+   macro avg       0.50      0.50      0.44     23162
+weighted avg       0.62      0.74      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.95      0.84     17396
+        True       0.26      0.05      0.09      5766
+
+   micro avg       0.73      0.73      0.73     23162
+   macro avg       0.51      0.50      0.46     23162
+weighted avg       0.63      0.73      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.90      0.82     17396
+        True       0.24      0.10      0.14      5766
+
+   micro avg       0.70      0.70      0.70     23162
+   macro avg       0.50      0.50      0.48     23162
+weighted avg       0.62      0.70      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.80      0.77     17396
+        True       0.25      0.20      0.22      5766
+
+   micro avg       0.65      0.65      0.65     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.62      0.65      0.64     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.70      0.72     17396
+        True       0.25      0.30      0.27      5766
+
+   micro avg       0.60      0.60      0.60     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.60      0.61     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.50      0.60     17396
+        True       0.25      0.50      0.34      5766
+
+   micro avg       0.50      0.50      0.50     23162
+   macro avg       0.50      0.50      0.47     23162
+weighted avg       0.63      0.50      0.54     23162
+",1
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 1e-05, 'penalty': 'l2'}",0.5005075103880815,"              precision    recall  f1-score   support
+
+       False       0.75      0.99      0.85     17396
+        True       0.26      0.01      0.02      5766
+
+   micro avg       0.75      0.75      0.75     23162
+   macro avg       0.50      0.50      0.44     23162
+weighted avg       0.63      0.75      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.98      0.85     17396
+        True       0.28      0.02      0.04      5766
+
+   micro avg       0.74      0.74      0.74     23162
+   macro avg       0.52      0.50      0.45     23162
+weighted avg       0.63      0.74      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.95      0.84     17396
+        True       0.26      0.05      0.09      5766
+
+   micro avg       0.73      0.73      0.73     23162
+   macro avg       0.50      0.50      0.46     23162
+weighted avg       0.63      0.73      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.90      0.82     17396
+        True       0.25      0.10      0.14      5766
+
+   micro avg       0.70      0.70      0.70     23162
+   macro avg       0.50      0.50      0.48     23162
+weighted avg       0.62      0.70      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.80      0.77     17396
+        True       0.25      0.20      0.22      5766
+
+   micro avg       0.65      0.65      0.65     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.65      0.64     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.70      0.72     17396
+        True       0.24      0.29      0.26      5766
+
+   micro avg       0.60      0.60      0.60     23162
+   macro avg       0.49      0.49      0.49     23162
+weighted avg       0.62      0.60      0.61     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.50      0.60     17396
+        True       0.25      0.50      0.33      5766
+
+   micro avg       0.50      0.50      0.50     23162
+   macro avg       0.50      0.50      0.46     23162
+weighted avg       0.62      0.50      0.53     23162
+",1
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 0.001, 'penalty': 'l1'}",0.49881933001051915,"              precision    recall  f1-score   support
+
+       False       0.75      0.99      0.85     17396
+        True       0.30      0.01      0.02      5766
+
+   micro avg       0.75      0.75      0.75     23162
+   macro avg       0.53      0.50      0.44     23162
+weighted avg       0.64      0.75      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.98      0.85     17396
+        True       0.23      0.02      0.03      5766
+
+   micro avg       0.74      0.74      0.74     23162
+   macro avg       0.49      0.50      0.44     23162
+weighted avg       0.62      0.74      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.95      0.84     17396
+        True       0.23      0.05      0.08      5766
+
+   micro avg       0.72      0.72      0.72     23162
+   macro avg       0.49      0.50      0.46     23162
+weighted avg       0.62      0.72      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.90      0.82     17396
+        True       0.24      0.10      0.14      5766
+
+   micro avg       0.70      0.70      0.70     23162
+   macro avg       0.50      0.50      0.48     23162
+weighted avg       0.62      0.70      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.80      0.78     17396
+        True       0.25      0.20      0.22      5766
+
+   micro avg       0.65      0.65      0.65     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.65      0.64     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.70      0.72     17396
+        True       0.24      0.29      0.27      5766
+
+   micro avg       0.60      0.60      0.60     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.62      0.60      0.61     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.50      0.60     17396
+        True       0.25      0.51      0.34      5766
+
+   micro avg       0.50      0.50      0.50     23162
+   macro avg       0.50      0.50      0.47     23162
+weighted avg       0.63      0.50      0.54     23162
+",1
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 0.001, 'penalty': 'l2'}",0.5011365796132721,"              precision    recall  f1-score   support
+
+       False       0.75      0.99      0.85     17396
+        True       0.23      0.01      0.02      5766
+
+   micro avg       0.75      0.75      0.75     23162
+   macro avg       0.49      0.50      0.44     23162
+weighted avg       0.62      0.75      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.98      0.85     17396
+        True       0.25      0.02      0.04      5766
+
+   micro avg       0.74      0.74      0.74     23162
+   macro avg       0.50      0.50      0.44     23162
+weighted avg       0.63      0.74      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.95      0.84     17396
+        True       0.25      0.05      0.08      5766
+
+   micro avg       0.73      0.73      0.73     23162
+   macro avg       0.50      0.50      0.46     23162
+weighted avg       0.63      0.73      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.90      0.82     17396
+        True       0.24      0.10      0.14      5766
+
+   micro avg       0.70      0.70      0.70     23162
+   macro avg       0.50      0.50      0.48     23162
+weighted avg       0.62      0.70      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.80      0.77     17396
+        True       0.24      0.19      0.22      5766
+
+   micro avg       0.65      0.65      0.65     23162
+   macro avg       0.50      0.50      0.49     23162
+weighted avg       0.62      0.65      0.63     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.70      0.73     17396
+        True       0.25      0.30      0.27      5766
+
+   micro avg       0.60      0.60      0.60     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.60      0.61     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.50      0.60     17396
+        True       0.24      0.49      0.33      5766
+
+   micro avg       0.50      0.50      0.50     23162
+   macro avg       0.50      0.49      0.46     23162
+weighted avg       0.62      0.50      0.53     23162
+",1
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 0.1, 'penalty': 'l1'}",0.4972314134913023,"              precision    recall  f1-score   support
+
+       False       0.75      0.99      0.85     17396
+        True       0.20      0.01      0.02      5766
+
+   micro avg       0.75      0.75      0.75     23162
+   macro avg       0.48      0.50      0.43     23162
+weighted avg       0.61      0.75      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.98      0.85     17396
+        True       0.26      0.02      0.04      5766
+
+   micro avg       0.74      0.74      0.74     23162
+   macro avg       0.51      0.50      0.44     23162
+weighted avg       0.63      0.74      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.95      0.84     17396
+        True       0.23      0.05      0.08      5766
+
+   micro avg       0.72      0.72      0.72     23162
+   macro avg       0.49      0.50      0.46     23162
+weighted avg       0.62      0.72      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.90      0.82     17396
+        True       0.25      0.10      0.14      5766
+
+   micro avg       0.70      0.70      0.70     23162
+   macro avg       0.50      0.50      0.48     23162
+weighted avg       0.63      0.70      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.80      0.77     17396
+        True       0.25      0.20      0.22      5766
+
+   micro avg       0.65      0.65      0.65     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.65      0.64     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.70      0.73     17396
+        True       0.25      0.30      0.27      5766
+
+   micro avg       0.60      0.60      0.60     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.60      0.61     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.50      0.60     17396
+        True       0.25      0.50      0.34      5766
+
+   micro avg       0.50      0.50      0.50     23162
+   macro avg       0.50      0.50      0.47     23162
+weighted avg       0.63      0.50      0.54     23162
+",1
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 0.1, 'penalty': 'l2'}",0.5009416996519507,"              precision    recall  f1-score   support
+
+       False       0.75      0.99      0.85     17396
+        True       0.26      0.01      0.02      5766
+
+   micro avg       0.75      0.75      0.75     23162
+   macro avg       0.51      0.50      0.44     23162
+weighted avg       0.63      0.75      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.98      0.85     17396
+        True       0.25      0.02      0.04      5766
+
+   micro avg       0.74      0.74      0.74     23162
+   macro avg       0.50      0.50      0.44     23162
+weighted avg       0.63      0.74      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.95      0.84     17396
+        True       0.25      0.05      0.08      5766
+
+   micro avg       0.73      0.73      0.73     23162
+   macro avg       0.50      0.50      0.46     23162
+weighted avg       0.63      0.73      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.90      0.82     17396
+        True       0.26      0.10      0.15      5766
+
+   micro avg       0.70      0.70      0.70     23162
+   macro avg       0.51      0.50      0.48     23162
+weighted avg       0.63      0.70      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.80      0.78     17396
+        True       0.25      0.20      0.23      5766
+
+   micro avg       0.65      0.65      0.65     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.65      0.64     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.70      0.72     17396
+        True       0.25      0.30      0.27      5766
+
+   micro avg       0.60      0.60      0.60     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.60      0.61     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.50      0.60     17396
+        True       0.24      0.49      0.33      5766
+
+   micro avg       0.50      0.50      0.50     23162
+   macro avg       0.50      0.49      0.46     23162
+weighted avg       0.62      0.50      0.53     23162
+",1
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 1, 'penalty': 'l1'}",0.5084089893283443,"              precision    recall  f1-score   support
+
+       False       0.75      0.99      0.85     17396
+        True       0.27      0.01      0.02      5766
+
+   micro avg       0.75      0.75      0.75     23162
+   macro avg       0.51      0.50      0.44     23162
+weighted avg       0.63      0.75      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.98      0.85     17396
+        True       0.27      0.02      0.04      5766
+
+   micro avg       0.74      0.74      0.74     23162
+   macro avg       0.51      0.50      0.45     23162
+weighted avg       0.63      0.74      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.95      0.84     17396
+        True       0.24      0.05      0.08      5766
+
+   micro avg       0.73      0.73      0.73     23162
+   macro avg       0.50      0.50      0.46     23162
+weighted avg       0.62      0.73      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.90      0.82     17396
+        True       0.23      0.09      0.13      5766
+
+   micro avg       0.70      0.70      0.70     23162
+   macro avg       0.49      0.50      0.47     23162
+weighted avg       0.62      0.70      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.80      0.77     17396
+        True       0.23      0.19      0.21      5766
+
+   micro avg       0.64      0.64      0.64     23162
+   macro avg       0.49      0.49      0.49     23162
+weighted avg       0.62      0.64      0.63     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.70      0.72     17396
+        True       0.24      0.29      0.27      5766
+
+   micro avg       0.60      0.60      0.60     23162
+   macro avg       0.50      0.49      0.49     23162
+weighted avg       0.62      0.60      0.61     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.50      0.60     17396
+        True       0.25      0.50      0.33      5766
+
+   micro avg       0.50      0.50      0.50     23162
+   macro avg       0.50      0.50      0.47     23162
+weighted avg       0.63      0.50      0.53     23162
+",1
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 1, 'penalty': 'l2'}",0.4983522212616884,"              precision    recall  f1-score   support
+
+       False       0.75      0.99      0.85     17396
+        True       0.28      0.01      0.02      5766
+
+   micro avg       0.75      0.75      0.75     23162
+   macro avg       0.51      0.50      0.44     23162
+weighted avg       0.63      0.75      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.98      0.85     17396
+        True       0.26      0.02      0.04      5766
+
+   micro avg       0.74      0.74      0.74     23162
+   macro avg       0.51      0.50      0.44     23162
+weighted avg       0.63      0.74      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.95      0.84     17396
+        True       0.26      0.05      0.09      5766
+
+   micro avg       0.73      0.73      0.73     23162
+   macro avg       0.51      0.50      0.46     23162
+weighted avg       0.63      0.73      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.90      0.82     17396
+        True       0.26      0.10      0.15      5766
+
+   micro avg       0.70      0.70      0.70     23162
+   macro avg       0.51      0.50      0.48     23162
+weighted avg       0.63      0.70      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.80      0.78     17396
+        True       0.25      0.20      0.23      5766
+
+   micro avg       0.65      0.65      0.65     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.65      0.64     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.70      0.72     17396
+        True       0.24      0.29      0.26      5766
+
+   micro avg       0.59      0.59      0.59     23162
+   macro avg       0.49      0.49      0.49     23162
+weighted avg       0.62      0.59      0.61     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.50      0.60     17396
+        True       0.25      0.49      0.33      5766
+
+   micro avg       0.50      0.50      0.50     23162
+   macro avg       0.50      0.50      0.46     23162
+weighted avg       0.62      0.50      0.53     23162
+",1
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 10, 'penalty': 'l1'}",0.5002683406593643,"              precision    recall  f1-score   support
+
+       False       0.75      0.99      0.85     17396
+        True       0.28      0.01      0.02      5766
+
+   micro avg       0.75      0.75      0.75     23162
+   macro avg       0.52      0.50      0.44     23162
+weighted avg       0.63      0.75      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.98      0.85     17396
+        True       0.25      0.02      0.04      5766
+
+   micro avg       0.74      0.74      0.74     23162
+   macro avg       0.50      0.50      0.44     23162
+weighted avg       0.63      0.74      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.95      0.84     17396
+        True       0.23      0.05      0.08      5766
+
+   micro avg       0.72      0.72      0.72     23162
+   macro avg       0.49      0.50      0.46     23162
+weighted avg       0.62      0.72      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.90      0.82     17396
+        True       0.26      0.10      0.15      5766
+
+   micro avg       0.70      0.70      0.70     23162
+   macro avg       0.50      0.50      0.48     23162
+weighted avg       0.63      0.70      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.80      0.77     17396
+        True       0.24      0.19      0.21      5766
+
+   micro avg       0.65      0.65      0.65     23162
+   macro avg       0.49      0.50      0.49     23162
+weighted avg       0.62      0.65      0.63     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.70      0.72     17396
+        True       0.25      0.30      0.27      5766
+
+   micro avg       0.60      0.60      0.60     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.62      0.60      0.61     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.50      0.60     17396
+        True       0.25      0.51      0.34      5766
+
+   micro avg       0.50      0.50      0.50     23162
+   macro avg       0.50      0.50      0.47     23162
+weighted avg       0.63      0.50      0.54     23162
+",1
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 10, 'penalty': 'l2'}",0.4928775474118346,"              precision    recall  f1-score   support
+
+       False       0.75      0.99      0.85     17396
+        True       0.27      0.01      0.02      5766
+
+   micro avg       0.75      0.75      0.75     23162
+   macro avg       0.51      0.50      0.44     23162
+weighted avg       0.63      0.75      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.98      0.85     17396
+        True       0.25      0.02      0.04      5766
+
+   micro avg       0.74      0.74      0.74     23162
+   macro avg       0.50      0.50      0.44     23162
+weighted avg       0.63      0.74      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.95      0.84     17396
+        True       0.24      0.05      0.08      5766
+
+   micro avg       0.72      0.72      0.72     23162
+   macro avg       0.49      0.50      0.46     23162
+weighted avg       0.62      0.72      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.90      0.82     17396
+        True       0.24      0.10      0.14      5766
+
+   micro avg       0.70      0.70      0.70     23162
+   macro avg       0.50      0.50      0.48     23162
+weighted avg       0.62      0.70      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.80      0.77     17396
+        True       0.24      0.20      0.22      5766
+
+   micro avg       0.65      0.65      0.65     23162
+   macro avg       0.50      0.50      0.49     23162
+weighted avg       0.62      0.65      0.63     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.70      0.72     17396
+        True       0.25      0.30      0.27      5766
+
+   micro avg       0.60      0.60      0.60     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.60      0.61     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.50      0.60     17396
+        True       0.25      0.50      0.33      5766
+
+   micro avg       0.50      0.50      0.50     23162
+   macro avg       0.50      0.50      0.47     23162
+weighted avg       0.63      0.50      0.53     23162
+",1
+DT,"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=1,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=10,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')","{'criterion': 'gini', 'max_depth': 1, 'min_samples_split': 10}",0.4956010216644905,"              precision    recall  f1-score   support
+
+       False       0.75      0.99      0.85     17396
+        True       0.25      0.01      0.02      5766
+
+   micro avg       0.75      0.75      0.75     23162
+   macro avg       0.50      0.50      0.44     23162
+weighted avg       0.63      0.75      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.98      0.85     17396
+        True       0.25      0.02      0.04      5766
+
+   micro avg       0.74      0.74      0.74     23162
+   macro avg       0.50      0.50      0.44     23162
+weighted avg       0.63      0.74      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.95      0.84     17396
+        True       0.25      0.05      0.08      5766
+
+   micro avg       0.73      0.73      0.73     23162
+   macro avg       0.50      0.50      0.46     23162
+weighted avg       0.63      0.73      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.90      0.82     17396
+        True       0.24      0.10      0.14      5766
+
+   micro avg       0.70      0.70      0.70     23162
+   macro avg       0.50      0.50      0.48     23162
+weighted avg       0.62      0.70      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.80      0.78     17396
+        True       0.25      0.20      0.22      5766
+
+   micro avg       0.65      0.65      0.65     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.65      0.64     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.70      0.73     17396
+        True       0.25      0.30      0.28      5766
+
+   micro avg       0.60      0.60      0.60     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.60      0.61     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.50      0.60     17396
+        True       0.25      0.50      0.33      5766
+
+   micro avg       0.50      0.50      0.50     23162
+   macro avg       0.50      0.50      0.47     23162
+weighted avg       0.63      0.50      0.53     23162
+",1
+KNN,"KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=None, n_neighbors=5, p=2,
+           weights='uniform')","{'algorithm': 'auto', 'n_neighbors': 5, 'weights': 'uniform'}",0.49880779024557576,"              precision    recall  f1-score   support
+
+       False       0.75      0.99      0.85     17396
+        True       0.24      0.01      0.02      5766
+
+   micro avg       0.75      0.75      0.75     23162
+   macro avg       0.50      0.50      0.44     23162
+weighted avg       0.62      0.75      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.98      0.85     17396
+        True       0.26      0.02      0.04      5766
+
+   micro avg       0.74      0.74      0.74     23162
+   macro avg       0.50      0.50      0.44     23162
+weighted avg       0.63      0.74      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.95      0.84     17396
+        True       0.22      0.04      0.07      5766
+
+   micro avg       0.72      0.72      0.72     23162
+   macro avg       0.48      0.50      0.45     23162
+weighted avg       0.62      0.72      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.90      0.82     17396
+        True       0.25      0.10      0.14      5766
+
+   micro avg       0.70      0.70      0.70     23162
+   macro avg       0.50      0.50      0.48     23162
+weighted avg       0.63      0.70      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.80      0.78     17396
+        True       0.25      0.20      0.22      5766
+
+   micro avg       0.65      0.65      0.65     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.65      0.64     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.70      0.72     17396
+        True       0.24      0.30      0.27      5766
+
+   micro avg       0.60      0.60      0.60     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.62      0.60      0.61     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.50      0.60     17396
+        True       0.25      0.50      0.33      5766
+
+   micro avg       0.50      0.50      0.50     23162
+   macro avg       0.50      0.50      0.47     23162
+weighted avg       0.63      0.50      0.53     23162
+",1
+RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=1, max_features='sqrt', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=10,
+            min_weight_fraction_leaf=0.0, n_estimators=1, n_jobs=-1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)","{'max_depth': 1, 'max_features': 'sqrt', 'min_samples_split': 10, 'n_estimators': 1}",0.49809919384547996,"              precision    recall  f1-score   support
+
+       False       0.75      0.99      0.85     17396
+        True       0.26      0.01      0.02      5766
+
+   micro avg       0.75      0.75      0.75     23162
+   macro avg       0.50      0.50      0.44     23162
+weighted avg       0.63      0.75      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.98      0.85     17396
+        True       0.22      0.02      0.03      5766
+
+   micro avg       0.74      0.74      0.74     23162
+   macro avg       0.48      0.50      0.44     23162
+weighted avg       0.62      0.74      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.95      0.84     17396
+        True       0.24      0.05      0.08      5766
+
+   micro avg       0.73      0.73      0.73     23162
+   macro avg       0.50      0.50      0.46     23162
+weighted avg       0.62      0.73      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.90      0.82     17396
+        True       0.26      0.10      0.15      5766
+
+   micro avg       0.70      0.70      0.70     23162
+   macro avg       0.50      0.50      0.48     23162
+weighted avg       0.63      0.70      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.80      0.78     17396
+        True       0.25      0.20      0.22      5766
+
+   micro avg       0.65      0.65      0.65     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.65      0.64     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.70      0.72     17396
+        True       0.25      0.30      0.27      5766
+
+   micro avg       0.60      0.60      0.60     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.62      0.60      0.61     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.50      0.60     17396
+        True       0.25      0.51      0.34      5766
+
+   micro avg       0.50      0.50      0.50     23162
+   macro avg       0.50      0.50      0.47     23162
+weighted avg       0.63      0.50      0.54     23162
+",1
+AB,"AdaBoostClassifier(algorithm='SAMME',
+          base_estimator=DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=1,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best'),
+          learning_rate=1.0, n_estimators=1, random_state=None)","{'algorithm': 'SAMME', 'n_estimators': 1}",0.49791017100027457,"              precision    recall  f1-score   support
+
+       False       0.75      0.99      0.85     17396
+        True       0.28      0.01      0.02      5766
+
+   micro avg       0.75      0.75      0.75     23162
+   macro avg       0.51      0.50      0.44     23162
+weighted avg       0.63      0.75      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.98      0.85     17396
+        True       0.25      0.02      0.04      5766
+
+   micro avg       0.74      0.74      0.74     23162
+   macro avg       0.50      0.50      0.44     23162
+weighted avg       0.63      0.74      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.95      0.84     17396
+        True       0.26      0.05      0.09      5766
+
+   micro avg       0.73      0.73      0.73     23162
+   macro avg       0.51      0.50      0.46     23162
+weighted avg       0.63      0.73      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.90      0.82     17396
+        True       0.25      0.10      0.14      5766
+
+   micro avg       0.70      0.70      0.70     23162
+   macro avg       0.50      0.50      0.48     23162
+weighted avg       0.63      0.70      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.80      0.78     17396
+        True       0.25      0.20      0.22      5766
+
+   micro avg       0.65      0.65      0.65     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.65      0.64     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.70      0.73     17396
+        True       0.25      0.30      0.28      5766
+
+   micro avg       0.60      0.60      0.60     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.60      0.61     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.50      0.60     17396
+        True       0.25      0.50      0.33      5766
+
+   micro avg       0.50      0.50      0.50     23162
+   macro avg       0.50      0.50      0.47     23162
+weighted avg       0.63      0.50      0.53     23162
+",1
+BA,"BaggingClassifier(base_estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False),
+         bootstrap=True, bootstrap_features=False, max_features=1.0,
+         max_samples=1.0, n_estimators=1, n_jobs=None, oob_score=False,
+         random_state=None, verbose=0, warm_start=False)","{'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False), 'n_estimators': 1}",0.5032098691140419,"              precision    recall  f1-score   support
+
+       False       0.75      0.99      0.85     17396
+        True       0.23      0.01      0.02      5766
+
+   micro avg       0.75      0.75      0.75     23162
+   macro avg       0.49      0.50      0.44     23162
+weighted avg       0.62      0.75      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.98      0.85     17396
+        True       0.22      0.02      0.03      5766
+
+   micro avg       0.74      0.74      0.74     23162
+   macro avg       0.49      0.50      0.44     23162
+weighted avg       0.62      0.74      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.95      0.84     17396
+        True       0.24      0.05      0.08      5766
+
+   micro avg       0.73      0.73      0.73     23162
+   macro avg       0.50      0.50      0.46     23162
+weighted avg       0.62      0.73      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.90      0.82     17396
+        True       0.26      0.10      0.15      5766
+
+   micro avg       0.70      0.70      0.70     23162
+   macro avg       0.50      0.50      0.48     23162
+weighted avg       0.63      0.70      0.65     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.80      0.78     17396
+        True       0.25      0.20      0.23      5766
+
+   micro avg       0.65      0.65      0.65     23162
+   macro avg       0.50      0.50      0.50     23162
+weighted avg       0.63      0.65      0.64     23162
+","              precision    recall  f1-score   support
+
+       False       0.75      0.70      0.72     17396
+        True       0.24      0.29      0.26      5766
+
+   micro avg       0.60      0.60      0.60     23162
+   macro avg       0.49      0.49      0.49     23162
+weighted avg       0.62      0.60      0.61     23162
+","              precision    recall  f1-score   support
+
+       False       0.74      0.49      0.59     17396
+        True       0.24      0.48      0.32      5766
+
+   micro avg       0.49      0.49      0.49     23162
+   macro avg       0.49      0.49      0.46     23162
+weighted avg       0.62      0.49      0.53     23162
+",1
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 1e-05, 'penalty': 'l1'}",0.5,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     37599
+        True       0.30      0.01      0.02     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.51      0.50      0.43     52637
+weighted avg       0.60      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     37599
+        True       0.28      0.02      0.04     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.43     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     37599
+        True       0.28      0.05      0.08     15038
+
+   micro avg       0.69      0.69      0.69     52637
+   macro avg       0.50      0.50      0.45     52637
+weighted avg       0.59      0.69      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     37599
+        True       0.29      0.10      0.15     15038
+
+   micro avg       0.67      0.67      0.67     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.67      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.80      0.76     37599
+        True       0.29      0.20      0.24     15038
+
+   micro avg       0.63      0.63      0.63     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.63      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.71     37599
+        True       0.29      0.30      0.29     15038
+
+   micro avg       0.59      0.59      0.59     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.59      0.59     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.50      0.59     37599
+        True       0.29      0.50      0.37     15038
+
+   micro avg       0.50      0.50      0.50     52637
+   macro avg       0.50      0.50      0.48     52637
+weighted avg       0.59      0.50      0.53     52637
+",2
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 1e-05, 'penalty': 'l2'}",0.4969672094751737,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     37599
+        True       0.29      0.01      0.02     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.42     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     37599
+        True       0.28      0.02      0.04     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.43     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     37599
+        True       0.29      0.05      0.09     15038
+
+   micro avg       0.69      0.69      0.69     52637
+   macro avg       0.50      0.50      0.45     52637
+weighted avg       0.59      0.69      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     37599
+        True       0.29      0.10      0.15     15038
+
+   micro avg       0.67      0.67      0.67     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.67      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.80      0.76     37599
+        True       0.29      0.20      0.24     15038
+
+   micro avg       0.63      0.63      0.63     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.63      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.71     37599
+        True       0.28      0.30      0.29     15038
+
+   micro avg       0.59      0.59      0.59     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.59      0.59     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.58     37599
+        True       0.28      0.49      0.36     15038
+
+   micro avg       0.49      0.49      0.49     52637
+   macro avg       0.49      0.49      0.47     52637
+weighted avg       0.59      0.49      0.52     52637
+",2
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 0.001, 'penalty': 'l1'}",0.5006912486505768,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     37599
+        True       0.28      0.01      0.02     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.42     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     37599
+        True       0.28      0.02      0.04     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.43     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     37599
+        True       0.28      0.05      0.08     15038
+
+   micro avg       0.69      0.69      0.69     52637
+   macro avg       0.50      0.50      0.45     52637
+weighted avg       0.59      0.69      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     37599
+        True       0.29      0.10      0.15     15038
+
+   micro avg       0.67      0.67      0.67     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.67      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.75     37599
+        True       0.28      0.20      0.23     15038
+
+   micro avg       0.63      0.63      0.63     52637
+   macro avg       0.50      0.50      0.49     52637
+weighted avg       0.59      0.63      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.70     37599
+        True       0.28      0.29      0.29     15038
+
+   micro avg       0.58      0.58      0.58     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.58      0.58     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.59     37599
+        True       0.28      0.50      0.36     15038
+
+   micro avg       0.50      0.50      0.50     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.50      0.52     52637
+",2
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 0.001, 'penalty': 'l2'}",0.5031489921534665,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     37599
+        True       0.32      0.01      0.02     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.52      0.50      0.43     52637
+weighted avg       0.60      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     37599
+        True       0.29      0.02      0.04     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.43     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     37599
+        True       0.28      0.05      0.08     15038
+
+   micro avg       0.69      0.69      0.69     52637
+   macro avg       0.50      0.50      0.45     52637
+weighted avg       0.59      0.69      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     37599
+        True       0.28      0.10      0.15     15038
+
+   micro avg       0.67      0.67      0.67     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.67      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.75     37599
+        True       0.28      0.20      0.23     15038
+
+   micro avg       0.63      0.63      0.63     52637
+   macro avg       0.50      0.50      0.49     52637
+weighted avg       0.59      0.63      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.70      0.71     37599
+        True       0.29      0.30      0.30     15038
+
+   micro avg       0.59      0.59      0.59     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.59      0.59     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.50      0.59     37599
+        True       0.29      0.50      0.37     15038
+
+   micro avg       0.50      0.50      0.50     52637
+   macro avg       0.50      0.50      0.48     52637
+weighted avg       0.59      0.50      0.53     52637
+",2
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 0.1, 'penalty': 'l1'}",0.4993832587329206,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     37599
+        True       0.26      0.01      0.02     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.49      0.50      0.42     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     37599
+        True       0.26      0.02      0.03     15038
+
+   micro avg       0.70      0.70      0.70     52637
+   macro avg       0.49      0.50      0.43     52637
+weighted avg       0.58      0.70      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     37599
+        True       0.28      0.05      0.08     15038
+
+   micro avg       0.69      0.69      0.69     52637
+   macro avg       0.50      0.50      0.45     52637
+weighted avg       0.59      0.69      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.90      0.80     37599
+        True       0.29      0.10      0.15     15038
+
+   micro avg       0.67      0.67      0.67     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.67      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.75     37599
+        True       0.28      0.20      0.23     15038
+
+   micro avg       0.63      0.63      0.63     52637
+   macro avg       0.50      0.50      0.49     52637
+weighted avg       0.59      0.63      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.71     37599
+        True       0.28      0.30      0.29     15038
+
+   micro avg       0.58      0.58      0.58     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.58      0.59     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.50      0.59     37599
+        True       0.29      0.51      0.37     15038
+
+   micro avg       0.50      0.50      0.50     52637
+   macro avg       0.50      0.50      0.48     52637
+weighted avg       0.60      0.50      0.53     52637
+",2
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 0.1, 'penalty': 'l2'}",0.4998722422324061,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     37599
+        True       0.28      0.01      0.02     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.49      0.50      0.42     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     37599
+        True       0.29      0.02      0.04     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.43     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     37599
+        True       0.29      0.05      0.09     15038
+
+   micro avg       0.69      0.69      0.69     52637
+   macro avg       0.50      0.50      0.45     52637
+weighted avg       0.59      0.69      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     37599
+        True       0.28      0.10      0.15     15038
+
+   micro avg       0.67      0.67      0.67     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.67      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.76     37599
+        True       0.29      0.20      0.24     15038
+
+   micro avg       0.63      0.63      0.63     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.63      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.70      0.71     37599
+        True       0.29      0.30      0.29     15038
+
+   micro avg       0.59      0.59      0.59     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.59      0.59     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.50      0.59     37599
+        True       0.29      0.50      0.37     15038
+
+   micro avg       0.50      0.50      0.50     52637
+   macro avg       0.50      0.50      0.48     52637
+weighted avg       0.59      0.50      0.53     52637
+",2
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 1, 'penalty': 'l1'}",0.4938997186983927,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     37599
+        True       0.26      0.01      0.02     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.49      0.50      0.42     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     37599
+        True       0.29      0.02      0.04     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.43     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     37599
+        True       0.28      0.05      0.08     15038
+
+   micro avg       0.69      0.69      0.69     52637
+   macro avg       0.50      0.50      0.45     52637
+weighted avg       0.59      0.69      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     37599
+        True       0.28      0.10      0.15     15038
+
+   micro avg       0.67      0.67      0.67     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.67      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.75     37599
+        True       0.28      0.20      0.23     15038
+
+   micro avg       0.63      0.63      0.63     52637
+   macro avg       0.50      0.50      0.49     52637
+weighted avg       0.59      0.63      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.71     37599
+        True       0.28      0.30      0.29     15038
+
+   micro avg       0.59      0.59      0.59     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.59      0.59     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.59     37599
+        True       0.28      0.50      0.36     15038
+
+   micro avg       0.50      0.50      0.50     52637
+   macro avg       0.50      0.50      0.48     52637
+weighted avg       0.59      0.50      0.52     52637
+",2
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 1, 'penalty': 'l2'}",0.5004668802171816,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     37599
+        True       0.28      0.01      0.02     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.49      0.50      0.42     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     37599
+        True       0.27      0.02      0.04     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.49      0.50      0.43     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     37599
+        True       0.29      0.05      0.09     15038
+
+   micro avg       0.69      0.69      0.69     52637
+   macro avg       0.50      0.50      0.45     52637
+weighted avg       0.59      0.69      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     37599
+        True       0.28      0.10      0.15     15038
+
+   micro avg       0.67      0.67      0.67     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.67      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.80      0.76     37599
+        True       0.29      0.21      0.24     15038
+
+   micro avg       0.63      0.63      0.63     52637
+   macro avg       0.51      0.50      0.50     52637
+weighted avg       0.60      0.63      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.71     37599
+        True       0.29      0.30      0.29     15038
+
+   micro avg       0.59      0.59      0.59     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.59      0.59     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.59     37599
+        True       0.28      0.50      0.36     15038
+
+   micro avg       0.50      0.50      0.50     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.50      0.52     52637
+",2
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 10, 'penalty': 'l1'}",0.49791491898635465,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     37599
+        True       0.29      0.01      0.02     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.42     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     37599
+        True       0.27      0.02      0.04     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.49      0.50      0.43     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     37599
+        True       0.29      0.05      0.09     15038
+
+   micro avg       0.69      0.69      0.69     52637
+   macro avg       0.50      0.50      0.45     52637
+weighted avg       0.59      0.69      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.90      0.80     37599
+        True       0.29      0.10      0.15     15038
+
+   micro avg       0.67      0.67      0.67     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.67      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.75     37599
+        True       0.28      0.20      0.23     15038
+
+   micro avg       0.63      0.63      0.63     52637
+   macro avg       0.50      0.50      0.49     52637
+weighted avg       0.59      0.63      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.71     37599
+        True       0.28      0.30      0.29     15038
+
+   micro avg       0.58      0.58      0.58     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.58      0.59     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.59     37599
+        True       0.29      0.50      0.36     15038
+
+   micro avg       0.50      0.50      0.50     52637
+   macro avg       0.50      0.50      0.48     52637
+weighted avg       0.59      0.50      0.52     52637
+",2
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 10, 'penalty': 'l2'}",0.501420992119396,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     37599
+        True       0.31      0.01      0.02     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.51      0.50      0.43     52637
+weighted avg       0.60      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     37599
+        True       0.28      0.02      0.04     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.43     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     37599
+        True       0.30      0.05      0.09     15038
+
+   micro avg       0.69      0.69      0.69     52637
+   macro avg       0.51      0.50      0.45     52637
+weighted avg       0.60      0.69      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     37599
+        True       0.29      0.10      0.15     15038
+
+   micro avg       0.67      0.67      0.67     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.67      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.75     37599
+        True       0.28      0.20      0.23     15038
+
+   micro avg       0.63      0.63      0.63     52637
+   macro avg       0.50      0.50      0.49     52637
+weighted avg       0.59      0.63      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.71     37599
+        True       0.29      0.30      0.29     15038
+
+   micro avg       0.59      0.59      0.59     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.59      0.59     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.50      0.59     37599
+        True       0.29      0.50      0.37     15038
+
+   micro avg       0.50      0.50      0.50     52637
+   macro avg       0.50      0.50      0.48     52637
+weighted avg       0.59      0.50      0.53     52637
+",2
+DT,"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=1,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=10,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')","{'criterion': 'gini', 'max_depth': 1, 'min_samples_split': 10}",0.49949994849966173,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     37599
+        True       0.29      0.01      0.02     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.42     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     37599
+        True       0.25      0.02      0.03     15038
+
+   micro avg       0.70      0.70      0.70     52637
+   macro avg       0.48      0.50      0.43     52637
+weighted avg       0.58      0.70      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.95      0.82     37599
+        True       0.30      0.05      0.09     15038
+
+   micro avg       0.69      0.69      0.69     52637
+   macro avg       0.51      0.50      0.45     52637
+weighted avg       0.60      0.69      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     37599
+        True       0.28      0.10      0.15     15038
+
+   micro avg       0.67      0.67      0.67     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.67      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.75     37599
+        True       0.28      0.20      0.23     15038
+
+   micro avg       0.63      0.63      0.63     52637
+   macro avg       0.50      0.50      0.49     52637
+weighted avg       0.59      0.63      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.71     37599
+        True       0.28      0.30      0.29     15038
+
+   micro avg       0.58      0.58      0.58     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.58      0.59     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.50      0.59     37599
+        True       0.29      0.50      0.36     15038
+
+   micro avg       0.50      0.50      0.50     52637
+   macro avg       0.50      0.50      0.48     52637
+weighted avg       0.59      0.50      0.53     52637
+",2
+KNN,"KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=None, n_neighbors=5, p=2,
+           weights='uniform')","{'algorithm': 'auto', 'n_neighbors': 5, 'weights': 'uniform'}",0.5020353802424781,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     37599
+        True       0.29      0.01      0.02     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.42     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     37599
+        True       0.30      0.02      0.04     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.51      0.50      0.43     52637
+weighted avg       0.60      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     37599
+        True       0.28      0.05      0.08     15038
+
+   micro avg       0.69      0.69      0.69     52637
+   macro avg       0.50      0.50      0.45     52637
+weighted avg       0.59      0.69      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     37599
+        True       0.29      0.10      0.15     15038
+
+   micro avg       0.67      0.67      0.67     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.67      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.76     37599
+        True       0.29      0.20      0.24     15038
+
+   micro avg       0.63      0.63      0.63     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.63      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.71     37599
+        True       0.28      0.30      0.29     15038
+
+   micro avg       0.58      0.58      0.58     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.58      0.59     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.50      0.59     37599
+        True       0.29      0.50      0.37     15038
+
+   micro avg       0.50      0.50      0.50     52637
+   macro avg       0.50      0.50      0.48     52637
+weighted avg       0.59      0.50      0.53     52637
+",2
+RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=1, max_features='sqrt', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=10,
+            min_weight_fraction_leaf=0.0, n_estimators=1, n_jobs=-1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)","{'max_depth': 1, 'max_features': 'sqrt', 'min_samples_split': 10, 'n_estimators': 1}",0.49566382945592335,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     37599
+        True       0.26      0.01      0.02     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.49      0.50      0.42     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     37599
+        True       0.28      0.02      0.04     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.43     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     37599
+        True       0.28      0.05      0.08     15038
+
+   micro avg       0.69      0.69      0.69     52637
+   macro avg       0.50      0.50      0.45     52637
+weighted avg       0.59      0.69      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     37599
+        True       0.29      0.10      0.15     15038
+
+   micro avg       0.67      0.67      0.67     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.67      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.80      0.76     37599
+        True       0.29      0.20      0.24     15038
+
+   micro avg       0.63      0.63      0.63     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.63      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.70      0.71     37599
+        True       0.29      0.31      0.30     15038
+
+   micro avg       0.59      0.59      0.59     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.59      0.59     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.50      0.59     37599
+        True       0.29      0.50      0.37     15038
+
+   micro avg       0.50      0.50      0.50     52637
+   macro avg       0.50      0.50      0.48     52637
+weighted avg       0.59      0.50      0.53     52637
+",2
+AB,"AdaBoostClassifier(algorithm='SAMME',
+          base_estimator=DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=1,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best'),
+          learning_rate=1.0, n_estimators=1, random_state=None)","{'algorithm': 'SAMME', 'n_estimators': 1}",0.5028513561366057,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     37599
+        True       0.28      0.01      0.02     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.42     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     37599
+        True       0.28      0.02      0.04     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.43     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     37599
+        True       0.29      0.05      0.09     15038
+
+   micro avg       0.69      0.69      0.69     52637
+   macro avg       0.50      0.50      0.45     52637
+weighted avg       0.59      0.69      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     37599
+        True       0.29      0.10      0.15     15038
+
+   micro avg       0.67      0.67      0.67     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.67      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.76     37599
+        True       0.29      0.20      0.24     15038
+
+   micro avg       0.63      0.63      0.63     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.63      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.70      0.71     37599
+        True       0.29      0.30      0.30     15038
+
+   micro avg       0.59      0.59      0.59     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.59      0.59     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.59     37599
+        True       0.29      0.50      0.36     15038
+
+   micro avg       0.50      0.50      0.50     52637
+   macro avg       0.50      0.50      0.48     52637
+weighted avg       0.59      0.50      0.52     52637
+",2
+BA,"BaggingClassifier(base_estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False),
+         bootstrap=True, bootstrap_features=False, max_features=1.0,
+         max_samples=1.0, n_estimators=1, n_jobs=None, oob_score=False,
+         random_state=None, verbose=0, warm_start=False)","{'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False), 'n_estimators': 1}",0.4962093954126289,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     37599
+        True       0.29      0.01      0.02     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.42     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     37599
+        True       0.29      0.02      0.04     15038
+
+   micro avg       0.71      0.71      0.71     52637
+   macro avg       0.50      0.50      0.43     52637
+weighted avg       0.59      0.71      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     37599
+        True       0.28      0.05      0.08     15038
+
+   micro avg       0.69      0.69      0.69     52637
+   macro avg       0.50      0.50      0.45     52637
+weighted avg       0.59      0.69      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     37599
+        True       0.28      0.10      0.15     15038
+
+   micro avg       0.67      0.67      0.67     52637
+   macro avg       0.50      0.50      0.47     52637
+weighted avg       0.59      0.67      0.61     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.75     37599
+        True       0.28      0.20      0.23     15038
+
+   micro avg       0.63      0.63      0.63     52637
+   macro avg       0.50      0.50      0.49     52637
+weighted avg       0.59      0.63      0.60     52637
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.71     37599
+        True       0.29      0.30      0.29     15038
+
+   micro avg       0.59      0.59      0.59     52637
+   macro avg       0.50      0.50      0.50     52637
+weighted avg       0.59      0.59      0.59     52637
+","              precision    recall  f1-score   support
+
+       False       0.72      0.50      0.59     37599
+        True       0.29      0.50      0.36     15038
+
+   micro avg       0.50      0.50      0.50     52637
+   macro avg       0.50      0.50      0.48     52637
+weighted avg       0.59      0.50      0.52     52637
+",2
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 1e-05, 'penalty': 'l1'}",0.5,"              precision    recall  f1-score   support
+
+       False       0.72      0.99      0.83     31600
+        True       0.29      0.01      0.02     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.42     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.98      0.83     31600
+        True       0.29      0.02      0.04     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.43     44176
+weighted avg       0.60      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     31600
+        True       0.28      0.05      0.08     12576
+
+   micro avg       0.69      0.69      0.69     44176
+   macro avg       0.50      0.50      0.45     44176
+weighted avg       0.59      0.69      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     31600
+        True       0.28      0.10      0.14     12576
+
+   micro avg       0.67      0.67      0.67     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.67      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.80      0.76     31600
+        True       0.28      0.20      0.24     12576
+
+   micro avg       0.63      0.63      0.63     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.63      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.71     31600
+        True       0.28      0.30      0.29     12576
+
+   micro avg       0.58      0.58      0.58     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.58      0.59     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.59     31600
+        True       0.28      0.50      0.36     12576
+
+   micro avg       0.50      0.50      0.50     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.50      0.52     44176
+",3
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 1e-05, 'penalty': 'l2'}",0.5029729522981287,"              precision    recall  f1-score   support
+
+       False       0.72      0.99      0.83     31600
+        True       0.30      0.01      0.02     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.51      0.50      0.43     44176
+weighted avg       0.60      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     31600
+        True       0.26      0.02      0.03     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.49      0.50      0.43     44176
+weighted avg       0.58      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     31600
+        True       0.28      0.05      0.08     12576
+
+   micro avg       0.69      0.69      0.69     44176
+   macro avg       0.50      0.50      0.45     44176
+weighted avg       0.59      0.69      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.90      0.80     31600
+        True       0.28      0.10      0.15     12576
+
+   micro avg       0.67      0.67      0.67     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.67      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.75     31600
+        True       0.28      0.20      0.23     12576
+
+   micro avg       0.63      0.63      0.63     44176
+   macro avg       0.50      0.50      0.49     44176
+weighted avg       0.59      0.63      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.70      0.71     31600
+        True       0.28      0.30      0.29     12576
+
+   micro avg       0.59      0.59      0.59     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.59      0.59     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.59     31600
+        True       0.28      0.49      0.36     12576
+
+   micro avg       0.50      0.50      0.50     44176
+   macro avg       0.50      0.49      0.47     44176
+weighted avg       0.59      0.50      0.52     44176
+",3
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 0.001, 'penalty': 'l1'}",0.49880649952088774,"              precision    recall  f1-score   support
+
+       False       0.72      0.99      0.83     31600
+        True       0.26      0.01      0.02     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.49      0.50      0.42     44176
+weighted avg       0.58      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.98      0.83     31600
+        True       0.30      0.02      0.04     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.51      0.50      0.43     44176
+weighted avg       0.60      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.95      0.82     31600
+        True       0.29      0.05      0.09     12576
+
+   micro avg       0.69      0.69      0.69     44176
+   macro avg       0.50      0.50      0.45     44176
+weighted avg       0.59      0.69      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.90      0.80     31600
+        True       0.29      0.10      0.15     12576
+
+   micro avg       0.67      0.67      0.67     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.67      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.80      0.76     31600
+        True       0.29      0.20      0.24     12576
+
+   micro avg       0.63      0.63      0.63     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.63      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.70      0.71     31600
+        True       0.29      0.30      0.29     12576
+
+   micro avg       0.59      0.59      0.59     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.59      0.59     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.59     31600
+        True       0.28      0.50      0.36     12576
+
+   micro avg       0.50      0.50      0.50     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.50      0.52     44176
+",3
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 0.001, 'penalty': 'l2'}",0.49689661667190066,"              precision    recall  f1-score   support
+
+       False       0.72      0.99      0.83     31600
+        True       0.28      0.01      0.02     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.42     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.98      0.83     31600
+        True       0.29      0.02      0.04     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.43     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.95      0.82     31600
+        True       0.28      0.05      0.08     12576
+
+   micro avg       0.69      0.69      0.69     44176
+   macro avg       0.50      0.50      0.45     44176
+weighted avg       0.59      0.69      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.90      0.80     31600
+        True       0.29      0.10      0.15     12576
+
+   micro avg       0.67      0.67      0.67     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.67      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.75     31600
+        True       0.28      0.20      0.23     12576
+
+   micro avg       0.63      0.63      0.63     44176
+   macro avg       0.50      0.50      0.49     44176
+weighted avg       0.59      0.63      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.70      0.71     31600
+        True       0.28      0.30      0.29     12576
+
+   micro avg       0.59      0.59      0.59     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.59      0.59     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.59     31600
+        True       0.28      0.50      0.36     12576
+
+   micro avg       0.50      0.50      0.50     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.50      0.52     44176
+",3
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 0.1, 'penalty': 'l1'}",0.4981645519293329,"              precision    recall  f1-score   support
+
+       False       0.72      0.99      0.83     31600
+        True       0.27      0.01      0.02     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.49      0.50      0.42     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.98      0.83     31600
+        True       0.28      0.02      0.04     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.43     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.95      0.82     31600
+        True       0.28      0.05      0.08     12576
+
+   micro avg       0.69      0.69      0.69     44176
+   macro avg       0.50      0.50      0.45     44176
+weighted avg       0.59      0.69      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     31600
+        True       0.28      0.10      0.14     12576
+
+   micro avg       0.67      0.67      0.67     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.67      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.80      0.76     31600
+        True       0.29      0.20      0.24     12576
+
+   micro avg       0.63      0.63      0.63     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.60      0.63      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.71     31600
+        True       0.28      0.30      0.29     12576
+
+   micro avg       0.59      0.59      0.59     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.59      0.59     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.50      0.59     31600
+        True       0.29      0.50      0.37     12576
+
+   micro avg       0.50      0.50      0.50     44176
+   macro avg       0.50      0.50      0.48     44176
+weighted avg       0.60      0.50      0.53     44176
+",3
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 0.1, 'penalty': 'l2'}",0.49678776205229164,"              precision    recall  f1-score   support
+
+       False       0.72      0.99      0.83     31600
+        True       0.26      0.01      0.02     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.49      0.50      0.42     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.98      0.83     31600
+        True       0.29      0.02      0.04     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.43     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     31600
+        True       0.27      0.05      0.08     12576
+
+   micro avg       0.69      0.69      0.69     44176
+   macro avg       0.49      0.50      0.45     44176
+weighted avg       0.59      0.69      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.90      0.80     31600
+        True       0.30      0.10      0.15     12576
+
+   micro avg       0.67      0.67      0.67     44176
+   macro avg       0.51      0.50      0.48     44176
+weighted avg       0.60      0.67      0.62     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.75     31600
+        True       0.28      0.19      0.23     12576
+
+   micro avg       0.63      0.63      0.63     44176
+   macro avg       0.50      0.50      0.49     44176
+weighted avg       0.59      0.63      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.70      0.71     31600
+        True       0.29      0.30      0.29     12576
+
+   micro avg       0.59      0.59      0.59     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.59      0.59     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.59     31600
+        True       0.28      0.50      0.36     12576
+
+   micro avg       0.50      0.50      0.50     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.50      0.52     44176
+",3
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 1, 'penalty': 'l1'}",0.49301192043514674,"              precision    recall  f1-score   support
+
+       False       0.71      0.99      0.83     31600
+        True       0.25      0.01      0.02     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.48      0.50      0.42     44176
+weighted avg       0.58      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.98      0.83     31600
+        True       0.29      0.02      0.04     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.43     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.95      0.82     31600
+        True       0.28      0.05      0.08     12576
+
+   micro avg       0.69      0.69      0.69     44176
+   macro avg       0.50      0.50      0.45     44176
+weighted avg       0.59      0.69      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.90      0.80     31600
+        True       0.29      0.10      0.15     12576
+
+   micro avg       0.67      0.67      0.67     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.67      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.80      0.76     31600
+        True       0.29      0.20      0.24     12576
+
+   micro avg       0.63      0.63      0.63     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.63      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.71     31600
+        True       0.28      0.30      0.29     12576
+
+   micro avg       0.59      0.59      0.59     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.59      0.59     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.59     31600
+        True       0.28      0.50      0.36     12576
+
+   micro avg       0.50      0.50      0.50     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.50      0.52     44176
+",3
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 1, 'penalty': 'l2'}",0.4984730459062067,"              precision    recall  f1-score   support
+
+       False       0.72      0.99      0.83     31600
+        True       0.31      0.01      0.02     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.51      0.50      0.43     44176
+weighted avg       0.60      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.98      0.83     31600
+        True       0.29      0.02      0.04     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.43     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     31600
+        True       0.28      0.05      0.08     12576
+
+   micro avg       0.69      0.69      0.69     44176
+   macro avg       0.50      0.50      0.45     44176
+weighted avg       0.59      0.69      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     31600
+        True       0.28      0.10      0.15     12576
+
+   micro avg       0.67      0.67      0.67     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.67      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.80      0.76     31600
+        True       0.29      0.20      0.24     12576
+
+   micro avg       0.63      0.63      0.63     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.60      0.63      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.70      0.71     31600
+        True       0.29      0.30      0.30     12576
+
+   micro avg       0.59      0.59      0.59     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.59      0.59     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.59     31600
+        True       0.28      0.49      0.36     12576
+
+   micro avg       0.50      0.50      0.50     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.50      0.52     44176
+",3
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 10, 'penalty': 'l1'}",0.4969970427899636,"              precision    recall  f1-score   support
+
+       False       0.72      0.99      0.83     31600
+        True       0.28      0.01      0.02     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.42     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.98      0.83     31600
+        True       0.28      0.02      0.04     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.43     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     31600
+        True       0.27      0.05      0.08     12576
+
+   micro avg       0.69      0.69      0.69     44176
+   macro avg       0.49      0.50      0.45     44176
+weighted avg       0.59      0.69      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     31600
+        True       0.27      0.10      0.14     12576
+
+   micro avg       0.67      0.67      0.67     44176
+   macro avg       0.49      0.50      0.47     44176
+weighted avg       0.59      0.67      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.75     31600
+        True       0.28      0.20      0.23     12576
+
+   micro avg       0.63      0.63      0.63     44176
+   macro avg       0.50      0.50      0.49     44176
+weighted avg       0.59      0.63      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.70      0.71     31600
+        True       0.28      0.30      0.29     12576
+
+   micro avg       0.59      0.59      0.59     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.59      0.59     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.59     31600
+        True       0.28      0.50      0.36     12576
+
+   micro avg       0.50      0.50      0.50     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.50      0.52     44176
+",3
+LR,"LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False)","{'C': 10, 'penalty': 'l2'}",0.49833250922995787,"              precision    recall  f1-score   support
+
+       False       0.72      0.99      0.83     31600
+        True       0.29      0.01      0.02     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.43     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.98      0.83     31600
+        True       0.25      0.02      0.03     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.48      0.50      0.43     44176
+weighted avg       0.58      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.95      0.82     31600
+        True       0.28      0.05      0.09     12576
+
+   micro avg       0.69      0.69      0.69     44176
+   macro avg       0.50      0.50      0.45     44176
+weighted avg       0.59      0.69      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.90      0.80     31600
+        True       0.30      0.10      0.15     12576
+
+   micro avg       0.67      0.67      0.67     44176
+   macro avg       0.51      0.50      0.48     44176
+weighted avg       0.60      0.67      0.62     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.80      0.76     31600
+        True       0.28      0.20      0.23     12576
+
+   micro avg       0.63      0.63      0.63     44176
+   macro avg       0.50      0.50      0.49     44176
+weighted avg       0.59      0.63      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.70     31600
+        True       0.27      0.29      0.28     12576
+
+   micro avg       0.58      0.58      0.58     44176
+   macro avg       0.49      0.49      0.49     44176
+weighted avg       0.59      0.58      0.58     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.59     31600
+        True       0.28      0.50      0.36     12576
+
+   micro avg       0.50      0.50      0.50     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.50      0.52     44176
+",3
+DT,"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=1,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=10,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')","{'criterion': 'gini', 'max_depth': 1, 'min_samples_split': 10}",0.49926949463716297,"              precision    recall  f1-score   support
+
+       False       0.72      0.99      0.83     31600
+        True       0.27      0.01      0.02     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.49      0.50      0.42     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.98      0.83     31600
+        True       0.28      0.02      0.04     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.43     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     31600
+        True       0.27      0.05      0.08     12576
+
+   micro avg       0.69      0.69      0.69     44176
+   macro avg       0.49      0.50      0.45     44176
+weighted avg       0.59      0.69      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     31600
+        True       0.28      0.10      0.14     12576
+
+   micro avg       0.67      0.67      0.67     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.67      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.75     31600
+        True       0.28      0.19      0.23     12576
+
+   micro avg       0.63      0.63      0.63     44176
+   macro avg       0.50      0.50      0.49     44176
+weighted avg       0.59      0.63      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.70      0.71     31600
+        True       0.29      0.30      0.29     12576
+
+   micro avg       0.59      0.59      0.59     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.59      0.59     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.50      0.59     31600
+        True       0.28      0.50      0.36     12576
+
+   micro avg       0.50      0.50      0.50     44176
+   macro avg       0.50      0.50      0.48     44176
+weighted avg       0.59      0.50      0.52     44176
+",3
+KNN,"KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=None, n_neighbors=5, p=2,
+           weights='uniform')","{'algorithm': 'auto', 'n_neighbors': 5, 'weights': 'uniform'}",0.5019511949624763,"              precision    recall  f1-score   support
+
+       False       0.72      0.99      0.83     31600
+        True       0.30      0.01      0.02     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.51      0.50      0.43     44176
+weighted avg       0.60      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.98      0.83     31600
+        True       0.28      0.02      0.04     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.43     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.95      0.82     31600
+        True       0.29      0.05      0.09     12576
+
+   micro avg       0.69      0.69      0.69     44176
+   macro avg       0.50      0.50      0.45     44176
+weighted avg       0.59      0.69      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     31600
+        True       0.27      0.10      0.14     12576
+
+   micro avg       0.67      0.67      0.67     44176
+   macro avg       0.49      0.50      0.47     44176
+weighted avg       0.59      0.67      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.75     31600
+        True       0.28      0.20      0.23     12576
+
+   micro avg       0.63      0.63      0.63     44176
+   macro avg       0.50      0.50      0.49     44176
+weighted avg       0.59      0.63      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.70      0.71     31600
+        True       0.28      0.30      0.29     12576
+
+   micro avg       0.59      0.59      0.59     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.59      0.59     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.50      0.59     31600
+        True       0.28      0.50      0.36     12576
+
+   micro avg       0.50      0.50      0.50     44176
+   macro avg       0.50      0.50      0.48     44176
+weighted avg       0.59      0.50      0.52     44176
+",3
+RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=1, max_features='sqrt', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=10,
+            min_weight_fraction_leaf=0.0, n_estimators=1, n_jobs=-1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)","{'max_depth': 1, 'max_features': 'sqrt', 'min_samples_split': 10, 'n_estimators': 1}",0.5000493203852224,"              precision    recall  f1-score   support
+
+       False       0.72      0.99      0.83     31600
+        True       0.27      0.01      0.02     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.49      0.50      0.42     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.98      0.83     31600
+        True       0.30      0.02      0.04     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.51      0.50      0.43     44176
+weighted avg       0.60      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.95      0.82     31600
+        True       0.28      0.05      0.08     12576
+
+   micro avg       0.69      0.69      0.69     44176
+   macro avg       0.50      0.50      0.45     44176
+weighted avg       0.59      0.69      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.90      0.80     31600
+        True       0.29      0.10      0.15     12576
+
+   micro avg       0.67      0.67      0.67     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.67      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.80      0.76     31600
+        True       0.28      0.20      0.23     12576
+
+   micro avg       0.63      0.63      0.63     44176
+   macro avg       0.50      0.50      0.49     44176
+weighted avg       0.59      0.63      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.70      0.71     31600
+        True       0.29      0.30      0.30     12576
+
+   micro avg       0.59      0.59      0.59     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.59      0.59     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.50      0.59     31600
+        True       0.28      0.50      0.36     12576
+
+   micro avg       0.50      0.50      0.50     44176
+   macro avg       0.50      0.50      0.48     44176
+weighted avg       0.59      0.50      0.52     44176
+",3
+AB,"AdaBoostClassifier(algorithm='SAMME',
+          base_estimator=DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=1,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best'),
+          learning_rate=1.0, n_estimators=1, random_state=None)","{'algorithm': 'SAMME', 'n_estimators': 1}",0.49938065674622345,"              precision    recall  f1-score   support
+
+       False       0.72      0.99      0.83     31600
+        True       0.29      0.01      0.02     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.43     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.98      0.83     31600
+        True       0.28      0.02      0.04     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.43     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.95      0.82     31600
+        True       0.28      0.05      0.08     12576
+
+   micro avg       0.69      0.69      0.69     44176
+   macro avg       0.50      0.50      0.45     44176
+weighted avg       0.59      0.69      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.90      0.80     31600
+        True       0.29      0.10      0.15     12576
+
+   micro avg       0.67      0.67      0.67     44176
+   macro avg       0.50      0.50      0.47     44176
+weighted avg       0.59      0.67      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.80      0.76     31600
+        True       0.29      0.20      0.24     12576
+
+   micro avg       0.63      0.63      0.63     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.63      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.70      0.71     31600
+        True       0.29      0.31      0.30     12576
+
+   micro avg       0.59      0.59      0.59     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.60      0.59      0.59     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.50      0.59     31600
+        True       0.29      0.50      0.36     12576
+
+   micro avg       0.50      0.50      0.50     44176
+   macro avg       0.50      0.50      0.48     44176
+weighted avg       0.59      0.50      0.53     44176
+",3
+BA,"BaggingClassifier(base_estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False),
+         bootstrap=True, bootstrap_features=False, max_features=1.0,
+         max_samples=1.0, n_estimators=1, n_jobs=None, oob_score=False,
+         random_state=None, verbose=0, warm_start=False)","{'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='warn',
+          tol=0.0001, verbose=0, warm_start=False), 'n_estimators': 1}",0.4956641795100976,"              precision    recall  f1-score   support
+
+       False       0.72      0.99      0.83     31600
+        True       0.27      0.01      0.02     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.49      0.50      0.42     44176
+weighted avg       0.59      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.98      0.83     31600
+        True       0.29      0.02      0.04     12576
+
+   micro avg       0.71      0.71      0.71     44176
+   macro avg       0.50      0.50      0.43     44176
+weighted avg       0.60      0.71      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.95      0.82     31600
+        True       0.28      0.05      0.08     12576
+
+   micro avg       0.69      0.69      0.69     44176
+   macro avg       0.50      0.50      0.45     44176
+weighted avg       0.59      0.69      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.90      0.80     31600
+        True       0.27      0.10      0.14     12576
+
+   micro avg       0.67      0.67      0.67     44176
+   macro avg       0.49      0.50      0.47     44176
+weighted avg       0.59      0.67      0.61     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.80      0.75     31600
+        True       0.28      0.19      0.23     12576
+
+   micro avg       0.63      0.63      0.63     44176
+   macro avg       0.50      0.50      0.49     44176
+weighted avg       0.59      0.63      0.60     44176
+","              precision    recall  f1-score   support
+
+       False       0.71      0.70      0.71     31600
+        True       0.28      0.30      0.29     12576
+
+   micro avg       0.58      0.58      0.58     44176
+   macro avg       0.50      0.50      0.50     44176
+weighted avg       0.59      0.58      0.59     44176
+","              precision    recall  f1-score   support
+
+       False       0.72      0.50      0.59     31600
+        True       0.28      0.50      0.36     12576
+
+   micro avg       0.50      0.50      0.50     44176
+   macro avg       0.50      0.50      0.48     44176
+weighted avg       0.59      0.50      0.52     44176
+",3
