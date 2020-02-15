@@ -27,7 +27,7 @@ The repository also contains a data folder:
 
 The database is at a level projects. The target projects are those that have more than 60 days between the date the project was posted ("date_posted") and the date the project was fully funded ("datefullyfunded"). The data spans Jan 1, 2012 to Dec 31, 2013, thus we built three samples of data where our training sets start on the 1/1/12 and end 60 days before the testing set starts, allowing for the projects to be funded within those days. 
 
-### 3. Results3
+### 3. Results
 
 The repository also contains a results folder:
 
